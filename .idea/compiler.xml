@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="account-email" />
+        <module name="account-persist" />
+        <module name="hello-world-archtype" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="account-aggregator" target="1.5" />
+      <module name="account-email" target="1.8" />
+      <module name="account-parent" target="1.5" />
+      <module name="account-persist" target="1.8" />
+      <module name="hello-world" target="1.8" />
+      <module name="hello-world-archtype" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
